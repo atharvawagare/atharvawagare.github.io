@@ -1,0 +1,316 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Alata', sans-serif;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+/*------------------------------------------------------------Navigation Bar------------------------------------------------------------*/
+
+.nav-bar{
+	display: flex;
+	align-items: center;
+	height: 75px;
+	background: white;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	overflow: hidden;
+	border-bottom: solid 5px #0095ff;
+}
+
+.nav-bar .logo{
+	width: 40%;
+	margin-left: 100px;
+}
+.nav-bar .logo .logo-link{
+	text-decoration: none;
+	color: #0095ff;
+}
+
+.nav-bar .menu-container{
+	width: 60%;
+
+}
+
+.nav-bar .menu-container .menu{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+.nav-bar .menu-container .menu li{
+	margin-left: 50px;
+}
+
+.nav-bar .menu-container .menu li a{
+	text-decoration: none;
+	padding: 5px 20px;
+	width: 200px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #00ccff;
+	border-radius: 15px;
+}
+
+.nav-bar .menu-container .menu li a:hover{
+	background-color: white;
+	color: #00ccff;
+	border-bottom: solid 5px #00ccff;
+}
+
+/*------------------------------------------------------------Home Section------------------------------------------------------------*/
+#home-section:before{
+	height: 650px;
+	content: " ";
+}
+
+#home-section{
+	display: flex;
+	align-items: center;
+	/*background: linear-gradient(#83e8ffff, #009bbeff);*/
+	background: linear-gradient(to top left, #3c96ff, #2dfbff);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 70% 85%, 0% 100%);
+}
+
+#home-section .left-side{
+	width: 50%;
+}
+
+#home-section .left-side .btn{
+	text-align: center;
+	margin-top: 25px;
+}
+
+#home-section .left-side .intro-name .btn .contact-btn{
+	color: white;
+	font-size: 25px;
+	padding: 10px 20px;
+	background-color: #007ad1;
+	width: 22%;
+	text-decoration: none;
+	border-radius: 25px;
+}
+
+#home-section .left-side .intro-name{
+	display: flex;
+	flex-direction: column;
+	margin: 0px 0px;
+	align-items: center;
+}
+
+#home-section .left-side .intro-name .name{
+	text-align: left;
+	color: white;
+	font-size: 50px;
+	font-family: candara;
+	margin: 0px 0px;
+}
+
+#home-section .right-side{
+	width: 50%;
+	overflow: hidden;
+}
+
+#home-section .right-side img{
+	height: 550px;
+	margin-top: 50px;
+}
+
+/*------------------------------------------------------------About Section------------------------------------------------------------*/
+#about-section:before{
+	content: " ";
+	margin-bottom: 50px;
+	margin-top: 0px;
+}
+
+#about-section{
+	height: 550px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#about-section .head-about{
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 0px;
+}
+
+#about-section .sides{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+}
+
+#about-section .sides .left-side{
+	width: 50%;
+	justify-content: center;
+	display: flex;
+}
+
+#about-section .sides .left-side .about-img{
+	padding: 25px 25px;
+	margin: 25px 25px;
+	background: linear-gradient(to bottom right, #3c96ff, #2dfbff);
+	overflow: hidden;
+}
+
+#about-section .sides .left-side .about-img img{
+	height: 350px;
+}
+
+#about-section .right-side{
+	width: 50%;
+	height: 200px;
+	margin-left: 75px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 100px;
+}
+
+#about-section .right-side .student{
+	font-weight: bold;
+	font-size: 35px;
+	color: #0095ff;
+}
+
+#about-section .right-side .about{
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+/*------------------------------------------------------------Contact Section------------------------------------------------------------*/
+#contact-section:before{
+	content: "";
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+
+#contact-section{
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contact-section .head-contact{
+	text-align: center;
+	font-size: 35px;
+	margin-bottom: 0px;
+	color: white;
+	width: 100%;
+	background: linear-gradient(to bottom right, #3c96ff, #2dfbff);
+}
+
+#contact-section .circular-logo{
+	background: linear-gradient(to bottom right, #3c96ff, #2dfbff);
+	justify-content: center;
+	width: 100%;
+	display: flex;
+}
+
+#contact-section .circular-logo img{
+	margin-top: 50px;
+	height: 240px;
+	margin-bottom: 20px;
+}
+
+#contact-section .social-media-profiles{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	background: linear-gradient(to top right, #3c96ff, #2dfbff);
+}
+
+/*-----------------------------------------SMP1-------------------------------------------*/
+#contact-section .social-media-profiles .smp1{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	height: 80px;
+	align-items: center;
+	margin: 0px 0px;
+}
+
+#contact-section .social-media-profiles .smp1 .insta, .fb, .linkedin{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#contact-section .social-media-profiles .smp1 .insta .button, .fb .button, .linkedin .button{
+	display: flex;
+	align-items: center;
+	height: 40px;
+}
+
+#contact-section .social-media-profiles .smp1 .insta a, .fb a, .linkedin a{
+	text-decoration: none;
+}
+
+#contact-section .social-media-profiles .smp1 .insta .button img, .fb .button img, .linkedin .button img{
+	height: 35px;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+#contact-section .social-media-profiles .smp1 .insta .button p, .fb .button p, .linkedin .button p{
+	text-decoration: none;
+	padding: 10px 15px;
+	margin: 0px 0px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Alata', sans-serif;
+}
+
+/*-----------------------------------------SMP2-------------------------------------------*/
+#contact-section .social-media-profiles .smp2{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	height: 80px;
+	align-items: center;
+	margin: 0px 0px;
+}
+
+#contact-section .social-media-profiles .smp2 .github{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+#contact-section .social-media-profiles .smp2 .github .button{
+	display: flex;
+	align-items: center;
+	height: 40px;
+}
+
+#contact-section .social-media-profiles .smp2 .github a{
+	text-decoration: none;
+}
+
+#contact-section .social-media-profiles .smp2 .github .button img{
+	height: 35px;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+#contact-section .social-media-profiles .smp2 .github .button p{
+	text-decoration: none;
+	padding: 10px 15px;
+	margin: 0px 0px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Alata', sans-serif;
+}/*------------------------------------------------------------Footer Section------------------------------------------------------------*/
+.footer{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
