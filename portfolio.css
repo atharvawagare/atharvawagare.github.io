@@ -278,30 +278,30 @@ body{
 	margin: 0px 0px;
 }
 
-#contact-section .social-media-profiles .smp2 .github{
+#contact-section .social-media-profiles .smp2 .github, .twitter{
 	margin-left: 20px;
 	margin-right: 20px;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
 
-#contact-section .social-media-profiles .smp2 .github .button{
+#contact-section .social-media-profiles .smp2 .github .button, .twitter .button{
 	display: flex;
 	align-items: center;
 	height: 40px;
 }
 
-#contact-section .social-media-profiles .smp2 .github a{
+#contact-section .social-media-profiles .smp2 .github a, .twitter a{
 	text-decoration: none;
 }
 
-#contact-section .social-media-profiles .smp2 .github .button img{
+#contact-section .social-media-profiles .smp2 .github .button img, .twitter .button img{
 	height: 35px;
 	margin: 0px 0px;
 	padding: 0px 0px;
 }
 
-#contact-section .social-media-profiles .smp2 .github .button p{
+#contact-section .social-media-profiles .smp2 .github .button p, .twitter .button p{
 	text-decoration: none;
 	padding: 10px 15px;
 	margin: 0px 0px;
