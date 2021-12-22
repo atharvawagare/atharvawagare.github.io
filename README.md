@@ -53,4 +53,4 @@ I love exploring new concepts and I am enthusiast in learning computer related s
   
   
  <b>Contact Me:</b>
- [Portfolio](https://atharvawagare.github.io) | [LinkedIn](https://linkedin.com/in/atharvawagare) | [Facebook](https://facebook.com/atharvawagare) | [Instagram](https://instagram.com/atharvawagare) | [Twitter](https://twitter.com/atharvawagare)
+ [Portfolio](https://atharvawagare.github.io) | [GitHub](https://github.com/atharvawagare) | [LinkedIn](https://linkedin.com/in/atharvawagare) | [Facebook](https://facebook.com/atharvawagare) | [Instagram](https://instagram.com/atharvawagare) | [Twitter](https://twitter.com/atharvawagare)
