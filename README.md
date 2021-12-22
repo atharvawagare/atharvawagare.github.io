@@ -5,7 +5,7 @@ I love exploring new concepts and I am enthusiast in learning computer related s
 
 ## Projects
 
-- ### Quizz Application
+- ### QuizUp - Quiz Application
   [Live](https://atharvawagare.github.io/quiz-app/) | [Code](https://github.com/atharvawagare/quiz-app)
   
   A online quiz application is built with frontend technologies HTML, CSS along with MySQL to store data. The quiz is fetching questions from OpenTrivia DB with the help of API.
