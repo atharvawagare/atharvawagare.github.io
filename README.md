@@ -43,13 +43,16 @@ I love exploring new concepts and I am enthusiast in learning computer related s
 - ### Introduction to GIS Mapping (Coursera) - [Certificate](https://www.coursera.org/verify/35VHZJDEQYPR)
    **University of Toronto**
    
-- ### Hackfest - 2021 - Certificate
+- ### Hackfest - 2021 - [Certificate](https://drive.google.com/file/d/1RIm4_T6brpCesGblfj0ZsDKj2GnGS33P/view?usp=sharing)
   **ATME College of Engineering, Mysuru**
   
-## Awards
+## Workshops
 
-- ### MKCL KLiC DTP CorelDraw & Photoshop Workshop
-  2nd Prize - Best Design Competition
+- ### NVIDIA DLI Ambessador Workshop Series
+  - *Fundamentals of Deep Learning* - 07 January 2022 - [Certificate](https://courses.nvidia.com/certificates/971abad1427147458a2458733ecc86e0)
+  - *Building Transformer based Natural Language Processing Applications* - 08 January 2022 - [Certificate](https://courses.nvidia.com/certificates/787bca3436334d4c8a4db59f0f12daa0)
+  - *Building Conversational AI Applications* - 09 January 2022 - [Certificate](https://courses.nvidia.com/certificates/21a9543c8d404c8eb777ec83d386c210)
+  - *Fundamentals of Accelerated Data Science* - 26 February 2022
   
   
  <b>Contact Me:</b>
